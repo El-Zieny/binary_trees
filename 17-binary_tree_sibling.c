@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 /**
- * sibling - check code
+ * binary_tree_sibling - check code
  *
  * @node: binary_tree_t node
  *
  * Return: binary_tree_t node
- */ 
+ */
 binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 {
 	if (!node || !node->parent)
